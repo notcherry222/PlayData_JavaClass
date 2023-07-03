@@ -1,5 +1,23 @@
-public class Main {
+class Static{
+
+    public int a = 20;
+    static int b = 0;
+
+}
+
+public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        int a;
+        a = 10;
+        Static.b = a;
+
+        Static st = new Static();
+
+        System.out.println(Static.b++);
+        System.out.println(st.b);
+        System.out.println(a);
+        System.out.print(st.a);
     }
 }
+ 
