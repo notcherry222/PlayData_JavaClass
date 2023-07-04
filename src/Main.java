@@ -6,18 +6,11 @@ class Static{
 }
 
 public class Main{
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        int a;
-        a = 10;
-        Static.b = a;
-
-        Static st = new Static();
-
-        System.out.println(Static.b++);
-        System.out.println(st.b);
-        System.out.println(a);
-        System.out.print(st.a);
+        int score = 85;
+        char grade = (score > 90)? 'A' : ((score > 80)? 'B' : 'C');
+        System.out.println(score + " 점은" + grade + " 등급입니다.");
     }
 }
  
