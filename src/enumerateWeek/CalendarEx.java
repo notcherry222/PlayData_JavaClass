@@ -8,7 +8,11 @@ import java.util.Calendar;
 public class CalendarEx {
     public static void main(String[] args) {
 
-        Week today = null; // today : 열거 타입 변수, monday~sunday : 열거 상수
+        /**
+         * today : 열거 타입 변수
+         * monday~sunday : 열거 상수
+         */
+        Week today = null;
 
         Calendar cal = Calendar.getInstance();
         int week = cal.get(Calendar.DAY_OF_WEEK);
