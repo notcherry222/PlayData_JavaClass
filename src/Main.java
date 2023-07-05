@@ -1,16 +1,8 @@
-class Static{
-
-    public int a = 20;
-    static int b = 0;
-
-}
+import java.util.Scanner;
 
 public class Main{
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        int score = 85;
-        char grade = (score > 90)? 'A' : ((score > 80)? 'B' : 'C');
-        System.out.println(score + " 점은" + grade + " 등급입니다.");
     }
 }
  
