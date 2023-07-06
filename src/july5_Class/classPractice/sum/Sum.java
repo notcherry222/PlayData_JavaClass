@@ -4,7 +4,7 @@ public class Sum {
     /**
      * verision1
      * @param values
-     * @return <없으면 컴파일에러 뜸
+     * @return sum <없으면 컴파일에러 뜸
      */
     int sum1(int[] values){  //많은 개수를 매개변수로 받을 수 있다.
         int sum= 0;
@@ -16,7 +16,7 @@ public class Sum {
     /**
      * version 2
      * @param values
-     * @return
+     * @return sum
      */
     int sum2(int ... values){
         int sum = 0;
