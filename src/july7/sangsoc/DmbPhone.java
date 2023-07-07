@@ -1,4 +1,4 @@
-package july7.inherit;
+package july7.sangsoc;
 
 public class DmbPhone extends CellPhone{
     //필드

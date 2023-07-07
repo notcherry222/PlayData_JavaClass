@@ -1,4 +1,4 @@
-package july7.parentsChild;
+package july7.daHyeongSeong2;
 
 public class ChildExample {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class ChildExample {
         parents.method1();
         parents.method2();
         /**
-         * parents.method()3; 호출 불가
+         * parents.method3(); 불가능
          */
     }
 }

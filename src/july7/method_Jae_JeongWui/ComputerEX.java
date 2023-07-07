@@ -1,4 +1,4 @@
-package july7.methodRefract;
+package july7.method_Jae_JeongWui;
 
 /**
  * 부모로부터 상속받은 메소드1

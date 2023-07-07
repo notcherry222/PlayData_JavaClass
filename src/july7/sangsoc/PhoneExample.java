@@ -1,6 +1,4 @@
-package july7.inherit;
-
-import org.w3c.dom.ls.LSOutput;
+package july7.sangsoc;
 
 public class PhoneExample {
 

@@ -1,4 +1,4 @@
-package july7.inherit;
+package july7.sangsoc;
 
 /**
  * private은 상속받을 수 없다.

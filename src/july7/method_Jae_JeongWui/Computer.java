@@ -1,5 +1,8 @@
-package july7.methodRefract;
+package july7.method_Jae_JeongWui;
 
+/**
+ * 자식 클래스
+ */
 public class Computer extends Calculator{
     @Override
     double areaCircle(double r){

@@ -1,4 +1,4 @@
-package july7.parentsChild;
+package july7.daHyeongSeong2;
 
 public class Child extends Parents{
     @Override
